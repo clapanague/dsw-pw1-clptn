@@ -54,10 +54,10 @@ h6{
 	height: 48px;
 }
 #tituloOvi{
-	/* background-image: url(http://localhost/trabajoBase/objetos/fondoTitulo.png); */
+	background-image: url(http://localhost/trabajoBase/objetos/fondoTitulo.png);
 	padding-left: 15px;
-	/* color: #ffffff; */
-	/* text-align: right; */
+	color: #ffffff;
+	text-align: left;
 }
 #menuRapido{
 	font: 14px verdana;
@@ -94,9 +94,9 @@ h6{
 }
 #columnaDerecha {
 	width: 20%;
-	background: #8fbc8f;
 	float:right;
 	margin-right:15px;
+	overflow : auto;
 }
 #columnaContenido {
 	margin-left: 10px;
