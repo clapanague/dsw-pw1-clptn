@@ -10,21 +10,25 @@ h1{
     align-content: center;
     flex-direction: column;
 }
+h2,h3, h4, h5, h6{
+	font-family: Cambria;
+}
 h2{
-	font-family: verdana, sans-serif;
-	font-size: 16px;
+	font-size: 26px;
+	text-align: center;
+	font-style: bold;
 }
 h3{
-	font-family: Cambria;
 	font-size: 20px;
 }
 h4{
-	font-family: Cambria;
-	font-size: 18px;
+	font-size: 16px;
 }
 h5{
-	font-family: Cambria;
 	font-size: 16px;
+}
+h6{
+	color: white ;
 }
 /*BLOQUE HEADER*/
 #cabecera, #cabeceraIzquierda, #cabeceraDerecha{
@@ -39,34 +43,36 @@ h5{
 	height: 99px;
 }
 #cabeceraIzquierda{
-	width: 28%;
+	width: 21%;
 }
 #cabeceraDerecha{
-	width: 69%;
+	width: 76.5%;
 }
 #menuRapido, #tituloOvi{
 	width: 100%;
 	height: 48px;
 }
 #tituloOvi{
-	border: 3px solid #000000;
+	
 	padding-left: 15px;
 	background: #20B2AA;
 }
 #menuRapido{
+	font: 14px verdana;
 	padding: 5px 5px;
 	text-align: right;
 	display: inline-block;
 }
+#tituloOvi, #bloqueMenu, #columnaContenido, #columnaDerecha, #redes, #piePagina, #contadorVisitas{
+	border: 3px solid #000000;
+}
 /*BLOQUE MENU SUPERIOR*/
 #bloqueMenu{
-	border: 3px solid #000000;
+	
 	float: left;
 	background: #20b2aa;
 	width: 100%;
-}
-#bloqueMenu{
-	height: 440px;
+	height: 400px;
 }
 /*estilos menu superior*/
 #top_menu{
@@ -77,25 +83,25 @@ h5{
 	padding-right: 10px;
 }
 /*BLOQUE CONTENIDOS*/
-#Contenidos{
-	text-align: center;
-	float: left;
-	width: 100%;
-	height: 500px;
-}
-#columnaIzquierda, #columnaContenido{
+#columnaIzquierda, #columnaDerecha, #columnaContenido{
 	height: 494px;
 }
 #columnaIzquierda {
 	float: left;
 	width: 20%;
 }
+#columnaDerecha {
+	width: 20%;
+	background: #8fbc8f;
+	float:right;
+	margin-right:15px;
+}
 #columnaContenido {
-	border: 3px solid #000000;
-	padding-left: 15px;
+	margin-left: 10px;
+	padding-left: 25px;
 	display: inline-block;
 	background: #8fbc8f;
-	width: 77%;
+	width: 55%;
 }
 /*MENU LATERAL*/
 #menu_lateral {
@@ -144,29 +150,33 @@ h5{
 	margin-top: 3px;
 }
 #redes{
-	border: 3px solid #808080;
 	float: left;
-	height: 45px;
+	height: 85px;
 	width: 100%;
-	background: gray;
+	background-image: url(http://localhost/trabajoBase/objetos/programacionWeb.png);
+}
+#pie, #piePagina, #contadorVisitas{
+	height: 50px;
 }
 #pie{
+	margin-top: 3px;
 	text-align: center;
 	float: left;
-	width: 100%;
-	height: 30px;
-	background: #000000;
+	width: 99%;
 }
 #piePagina{
 	float: left;
-	border: 3px solid #808080;	
-	height: 30px;
-	width: 87.7%;
+	width: 89%;
+	background: #000000;
 }
 #contadorVisitas{
 	float: left;
-	border: 3px solid #808080;
-	height: 30px;
 	width: 10%;
+	background: #000000;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
