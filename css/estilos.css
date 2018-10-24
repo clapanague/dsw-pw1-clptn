@@ -1,0 +1,172 @@
+body {
+	margin: 3px;
+	padding: 3px;
+}
+/*FUENTES*/
+h1{
+	font: 32px verdana;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+h2{
+	font-family: verdana, sans-serif;
+	font-size: 16px;
+}
+h3{
+	font-family: Cambria;
+	font-size: 20px;
+}
+h4{
+	font-family: Cambria;
+	font-size: 18px;
+}
+h5{
+	font-family: Cambria;
+	font-size: 16px;
+}
+/*BLOQUE HEADER*/
+#cabecera, #cabeceraIzquierda, #cabeceraDerecha{
+	float: left;
+}
+#cabecera{
+	height: 80px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+#cabeceraDerecha, #cabeceraIzquierda{
+	height: 99px;
+}
+#cabeceraIzquierda{
+	width: 28%;
+}
+#cabeceraDerecha{
+	width: 69%;
+}
+#menuRapido, #tituloOvi{
+	width: 100%;
+	height: 48px;
+}
+#tituloOvi{
+	border: 3px solid #000000;
+	padding-left: 15px;
+	background: #20B2AA;
+}
+#menuRapido{
+	padding: 5px 5px;
+	text-align: right;
+	display: inline-block;
+}
+/*BLOQUE MENU SUPERIOR*/
+#bloqueMenu{
+	border: 3px solid #000000;
+	float: left;
+	background: #20b2aa;
+	width: 100%;
+}
+#bloqueMenu{
+	height: 440px;
+}
+/*estilos menu superior*/
+#top_menu{
+	display: inline;
+}
+#top_menu li{
+	float: right;
+	padding-right: 10px;
+}
+/*BLOQUE CONTENIDOS*/
+#Contenidos{
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 500px;
+}
+#columnaIzquierda, #columnaContenido{
+	height: 494px;
+}
+#columnaIzquierda {
+	float: left;
+	width: 20%;
+}
+#columnaContenido {
+	border: 3px solid #000000;
+	padding-left: 15px;
+	display: inline-block;
+	background: #8fbc8f;
+	width: 77%;
+}
+/*MENU LATERAL*/
+#menu_lateral {
+  width: auto;
+  font: bold 14px Verdana;
+}
+/* listas a cero */
+.item_principal, .sub_item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* relleno y color de fondo */
+.item_principal a {
+  display: block;
+  background-color: #20b2aa;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+/* desplazamiento */
+.item_principal a:hover {
+    background-color: #C5C5C5;
+}
+/* efecto cuando se pase el cursor y altura maxima*/
+.item_principal li:hover .sub_item {
+  display: block;
+  max-height: 200px;
+}
+/*fondo para sub_items*/
+.sub_item a {
+  background-color: #999;
+}
+/* hover para sub_item */
+.sub_item a:hover {
+  background-color: #666;
+}
+/* estilo sub_item ocultando contenido que desborde*/
+.sub_item {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+/*BLOQUE REDES SOCIALES*/
+#redes{
+	margin-top: 3px;
+}
+#redes{
+	border: 3px solid #808080;
+	float: left;
+	height: 45px;
+	width: 100%;
+	background: gray;
+}
+#pie{
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 30px;
+	background: #000000;
+}
+#piePagina{
+	float: left;
+	border: 3px solid #808080;	
+	height: 30px;
+	width: 87.7%;
+}
+#contadorVisitas{
+	float: left;
+	border: 3px solid #808080;
+	height: 30px;
+	width: 10%;
+}
+
