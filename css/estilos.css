@@ -156,7 +156,7 @@ h6{
 	background-image: url(http://localhost/trabajoBase/objetos/programacionWeb.png);
 }
 #pie, #piePagina, #contadorVisitas{
-	height: 50px;
+	height: 45px;
 }
 #pie{
 	margin-top: 3px;
