@@ -47,7 +47,7 @@ h6{
 	width: 21%;
 }
 #cabeceraDerecha{
-	width: 74.5%;
+	width: 71.5%;
 }
 #menuRapido, #tituloOvi{
 	width: 100%;
@@ -104,7 +104,7 @@ h6{
 	padding-left: 25px;
 	float:left;
 	background: #8fbc8f;
-	width: 53%;
+	width: 50%;
 }
 /*MENU LATERAL*/
 #menu_lateral {
@@ -169,7 +169,7 @@ h6{
 }
 #piePagina{
 	float: left;
-	width: 87.5%;
+	width: 84.5%;
 	background: #000000;
 }
 #contadorVisitas{
