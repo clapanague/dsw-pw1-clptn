@@ -47,7 +47,7 @@ h6{
 	width: 21%;
 }
 #cabeceraDerecha{
-	width: 76.5%;
+	width: 74.5%;
 }
 #menuRapido, #tituloOvi{
 	width: 100%;
@@ -93,17 +93,18 @@ h6{
 	width: 20%;
 }
 #columnaDerecha {
+	margin-left: 10px;
 	width: 20%;
-	float:right;
+	display:inline-block;
 	margin-right:15px;
 	overflow : auto;
 }
 #columnaContenido {
 	margin-left: 10px;
 	padding-left: 25px;
-	display: inline-block;
+	float:left;
 	background: #8fbc8f;
-	width: 55%;
+	width: 53%;
 }
 /*MENU LATERAL*/
 #menu_lateral {
@@ -168,7 +169,7 @@ h6{
 }
 #piePagina{
 	float: left;
-	width: 89%;
+	width: 87.5%;
 	background: #000000;
 }
 #contadorVisitas{
