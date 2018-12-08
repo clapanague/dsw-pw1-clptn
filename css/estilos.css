@@ -148,19 +148,32 @@ h5{
 }
 #pie{
 	margin-top: 3px;
-	text-align: center;
 	float: left;
 	width: 100%;
 }
 #piePagina, #contadorVisitas{
-		float: left;
-		background: #414141;
+	float: left;
+	background: #414141;
 }
 #piePagina{
-	width: 84%;
+	width: 84%
+}
+#piePaginaIzq{
+	width: 38%;
 	font-family: Cambria;
 	font-size: 10px;
 	color: white ;
+	float: left;
+	padding-left: 10px;
+}
+#piePaginaDer{
+	width: 38%;
+	font-family: Cambria;
+	font-size: 10px;
+	color: white ;
+	float: right;
+	text-align: right;
+	padding-right: 10px;
 }
 #contadorVisitas{
 	float: left;
