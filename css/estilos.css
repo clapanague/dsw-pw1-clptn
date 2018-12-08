@@ -141,8 +141,7 @@ h5{
 .sub_item {
   overflow: hidden;
   max-height: 0;
-  -webkit-transition: all 0.5s ease-out;
-}
+ }
 #pie, #piePagina, #contadorVisitas{
 	height: 38px;
 }
