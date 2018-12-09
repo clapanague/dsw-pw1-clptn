@@ -1,0 +1,4 @@
+Contador de Visitas
+
+Es un rectangulo que contiene 4 cuadros en fondo negro, dentro de los cuales hay un numero entre 0 y 9 
+(de color blanco), que son los indicadores de la cantidad de usuarios que han visitado el sitio web.
